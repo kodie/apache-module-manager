@@ -118,7 +118,7 @@ $ sudo amm disable php
 
 ### `switch <old/new search> [new search]`
 
-Disable a status and enable another one. If only one argument if given, the first argument will be used to search for both the module to disable and enable. If multiple modules match a search term, a select prompt will be displayed allowing you to choose from the matches. The `sudo` prefix is required since the script modifies a system file.
+Disable a module and enable another one. If only one argument is given, the first argument will be used to search for both the module to disable and the module to enable. If multiple modules match a search term, a select prompt will be displayed allowing you to choose from the matches. The `sudo` prefix is required since the script modifies a system file.
 
 #### Examples
 
