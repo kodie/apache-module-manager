@@ -1,0 +1,54 @@
+{
+  "name": "apache-module-manager",
+  "version": "1.0.0",
+  "description": "A CLI tool for enabling/disabling Apache modules",
+  "keywords": [
+    "apache",
+    "cli",
+    "command",
+    "conf",
+    "disable",
+    "enable",
+    "http",
+    "module",
+    "manage",
+    "server",
+    "switch"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/apache-module-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/apache-module-manager/issues"
+  },
+  "homepage": "https://github.com/kodie/apache-module-manager",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "bin": {
+    "amm": "index.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "columnify": "^1.5.4",
+    "commander": "^2.15.1",
+    "fast-sort": "^1.2.6",
+    "fuse.js": "^3.2.0",
+    "inquirer": "^5.2.0",
+    "line-number": "^0.1.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
