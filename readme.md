@@ -13,7 +13,7 @@ A CLI tool for enabling/disabling [Apache](https://httpd.apache.org) modules.
 ## Installation
 
 ```shell
-$ npm install -g apache-module-manager
+$ npm install --global apache-module-manager
 ```
 
 ## Note
@@ -31,7 +31,7 @@ List/search for modules.
 | Long       | Short | Description                                                                    |
 |------------|-------|--------------------------------------------------------------------------------|
 | --disabled | -d    | Only display disabled modules                                                  |
-| --enabled  | -e    | Only disable enabled modules                                                   |
+| --enabled  | -e    | Only display enabled modules                                                   |
 | --sort     | -s    | A comma separated list of columns to sort by (defaults to `enabled,name,path`) |
 
 
@@ -154,7 +154,7 @@ By default, AMM will check if the file `~/.amm.json` exists and load config opti
 
 ### Global Options
 
-These options can be used with any of the above commands.
+These options can be used with any of the above commands:
 
 | Long            | Short | Description                                   |
 |-----------------|-------|-----------------------------------------------|
@@ -165,7 +165,7 @@ These options can be used with any of the above commands.
 
 ### Environment Variables
 
-These environment variables can be used to change different config options.
+These environment variables can be used to change different config options:
 
 | Variable          | Description                    |
 |-------------------|--------------------------------|
@@ -179,6 +179,7 @@ These environment variables can be used to change different config options.
  - [ ] Support for multiple Apache config files (file traversing?)
  - [ ] Allow for multiple modules to be enabled/disabled at the same time
  - [ ] Automated Apache config file backups
+ - [ ] Implement module so that AMM can be used by other packages
 
 ## License
 MIT. See the [license.md file](license.md) for more info.
