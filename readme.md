@@ -180,6 +180,17 @@ These environment variables can be used to change different config options:
  - [ ] Allow for multiple modules to be enabled/disabled at the same time
  - [ ] Automated Apache config file backups
  - [ ] Implement module so that AMM can be used by other packages
+ - [ ] Implement `add` and `remove` commands to add/remove LoadModule lines from config
+
+## Frequently Asked Questions
+
+### Doesn't a2enmod/a2dismod do the same thing?
+
+Currently, yes. I built this before I knew that a2enmod/a2dismod could be installed on macOS. However, AMM has a nicer interface and I would like to extend the functionality of it in the near future.
+
+### Don't you mean httpd instead of Apache?
+
+Yes, however [plenty of people refer to it as Apache](https://askubuntu.com/a/600902) and you know what I'm talking about.
 
 ## License
 MIT. See the [license.md file](license.md) for more info.
